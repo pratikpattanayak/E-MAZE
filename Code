@@ -1,0 +1,13 @@
+S=input()
+X=0
+Y=0
+for i in range(0,len(S)):
+    if(S[i]=="L"):
+        X=X-1
+    elif(S[i]=="R"):
+        X=X+1
+    elif(S[i]=="U"):
+        Y=Y+1
+    elif(S[i]=="D"):
+        Y=Y-1
+print(X,Y)        
